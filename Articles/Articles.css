@@ -1,0 +1,15 @@
+.content .photo img {
+    width: 500px;
+    border-radius: 5%;
+}
+
+p {
+    text-align: center;
+}
+
+@media (max-width: 550px) {
+    .content .photo img {
+        width: 400px;
+        border-radius: 5%;
+    }
+}

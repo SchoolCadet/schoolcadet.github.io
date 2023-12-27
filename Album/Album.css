@@ -1,0 +1,19 @@
+.content .photo img {
+    position: relative;
+    top: 30px;
+    width: 300px;
+    border-radius: 5%;
+}
+
+p {
+    text-align: center;
+}
+
+@media (max-width: 550px) {
+    .content .photo img {
+        position: relative;
+        top: 30px;
+        width: 200px;
+        border-radius: 5%;
+    }
+}
