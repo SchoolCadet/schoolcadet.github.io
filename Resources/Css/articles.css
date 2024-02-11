@@ -1,0 +1,48 @@
+#myImg {
+    border-radius: 15px;
+    margin: 20px;
+    transition: 0.3s;
+    width: 100%;
+    max-width: 400px;
+}
+
+p {
+    text-align: center;
+}
+
+/* Main content */
+.main {
+    margin: 30px;
+    font-size: 20px;
+    /* Add a top margin to avoid content overlay */
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    #myImg {
+        max-width: 250px;
+    }
+
+    .main {
+        font-size: 15px;
+    }
+}
